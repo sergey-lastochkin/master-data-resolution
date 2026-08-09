@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="1c-master-data-resolution"
+version="0.1.0"
+requires-python=">=3.11"
+description="Explainable entity-resolution engine for companies/products with normalization, blocking, conflict-aware scoring, remembered review decisions, canonical mappings and provenance."
+
+[project.optional-dependencies]
+dev=["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+testpaths=["tests"]
+pythonpath=["src"]
+addopts="-q"
