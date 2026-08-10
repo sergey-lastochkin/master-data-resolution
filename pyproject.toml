@@ -9,7 +9,7 @@ requires-python=">=3.11"
 description="Explainable entity-resolution engine for companies/products with normalization, blocking, conflict-aware scoring, remembered review decisions, canonical mappings and provenance."
 
 [project.optional-dependencies]
-dev=["pytest>=8,<9"]
+dev=["pytest>=8,<9", "ruff>=0.12,<1"]
 
 [tool.pytest.ini_options]
 testpaths=["tests"]

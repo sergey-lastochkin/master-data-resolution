@@ -42,6 +42,8 @@ python3.12 -m venv .venv
 
 Tests cover company/product normalization, blocking, exact matches, identifier/brand conflicts, rejection memory, idempotent/conflicting mappings, survivorship, transitive false-merge protection, metric math and the deterministic 10,000-record benchmark.
 
+CI additionally runs `ruff` and `compileall`; it uses only synthetic records and does not connect to 1C or a master-data system.
+
 ## Limitations
 
 - The benchmark is synthetic/easy and its quality metrics are not a production claim.
