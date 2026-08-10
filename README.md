@@ -1,5 +1,7 @@
 # 1C Master Data Resolution
 
+[![CI](https://github.com/sergey-lastochkin/master-data-resolution/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sergey-lastochkin/master-data-resolution/actions/workflows/ci.yml)
+
 ## What
 
 Python entity-resolution engine designed to consume company/product records exported from 1C or peer systems. It demonstrates normalization, blocking, conflict-aware scoring, remembered review decisions, canonical mappings and provenance with synthetic inputs.
